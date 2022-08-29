@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    margin: 0px; 
+    padding: 0px; 
+    list-style: none; 
+}
+
+#fixed1{
+    background-image: url(images/fixed1.jpeg);
+    background-size: cover;
+    height: 150px;
+    background-attachment: fixed;
+}
+
+#fixed2{
+    background-image: url(images/fixed2.jpeg);
+    background-size: contain;
+    height: 150px;
+    background-attachment: fixed;
+}
+
+#fixed3{
+    background-image: url(images/fixed3.jpeg);
+    background-size: contain;
+    height: 150px;
+    background-attachment: fixed;
+}
+
+#fixed4{
+    background-image: url(images/fixed4.jpeg);
+    background-size: contain;
+    height: 150px;
+    background-attachment: fixed;
+}
+
+header{
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.8);
+    font-family: 'Abril Fatface', cursive;
+    border: 1.5px solid #000;
+}
+
+header p{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+header ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+header a{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.firstview{
+    background-image: url(images/firstview.PNG);
+    height: 800px;
+    background-size: contain;
+    color: #ffffff;
+}
+
+.firstview h1{
+    font-size: 130px;
+    text-align: center;
+    padding-top: 320px;
+    font-family: 'Rubik Dirt', cursive;
+    letter-spacing: 0.1em;
+}
+
+.firstview p{
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.about{
+    height: 700px; 
+    background-image: url(images/paper-texture.jpg);
+    text-align: left;
+}
+
+.about img{
+    margin: 200px 50px 80px 350px;
+    float: left;
+}
+
+.profile-text{
+    padding-top: 200px;
+}
+
+.profile-text h2{
+    font-family: 'Rubik Dirt', cursive;
+    padding: 10px 10px 0 10px;
+    font-size: 100px;
+}
+
+.profile-text p{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 15px 0 15px 0;
+}
+
+.history{
+    height: 1280px; 
+    background-image: url(images/paper-texture2.jpeg);
+}
+
+.v-line{
+    border-left: thick solid #000;
+    height:135%;
+    left: 28%;
+    position: absolute;
+    float: left;
+    margin-top: 100px;
+   }
+
+.history-text{
+    text-align:left;
+    margin-left: 450px;
+    padding-top: 100px;
+}
+
+.history-text h2{
+    font-family: 'Rubik Dirt', cursive;
+    letter-spacing: 2px;
+    font-size: 100px;
+    color: #000;
+}
+
+.history-text h3{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 60px;
+}
+
+.history-text p{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 20px;
+}
+
+.history-box{
+    border: 1.5px solid #000;
+    width: 550px;
+    padding: 10px 0 30px 30px;
+    margin: 30px 0 0 10px;
+    background-color: rgba(47,79,79,0.4);
+}
+
+.works{
+    padding: 180px;
+    text-align: center;
+    background-image: url(images/works-background.jpeg);
+}
+
+.works h2{
+    font-family: 'Rubik Dirt', cursive;    
+    font-size: 140px;
+    color: #ffffff;
+    letter-spacing: 0.2em;
+    text-align: center;
+    display: inline-block;
+}
+
+.works-content{
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding: 40px;
+    text-align-last: left;
+    background-color: rgba(255,255,255,0.4);    
+    border: 1.5px solid #ffffff;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: #000;
+}
+
+.works-content img{
+    width: 320px;
+    height: 180px;
+}
+
+.works-content h3{
+    font-size: 40px;
+}
+
+.works-content p{
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.works-content span{
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+.works-content .works-text {
+    margin-left: 32px;
+}
+
+.contact{
+    padding: 80px 370px;
+    text-align: center;
+    background-image: url(images/contact-background.jpeg);
+    background-size: cover;
+    color: #edece7;
+}
+
+.contact h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.contact p{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 200%;
+    margin-top: 48px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.contact a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.contact .sns-twitter{
+    background-color: rgb(70, 130, 180, 0.7);
+    border: 1.5px solid #ffffff;
+}
+
+.contact .sns-facebook{
+    background-color: rgb(25, 25, 112, 0.7);
+    border: 1.5px solid #ffffff;
+}
+
+.contact .sns-website{
+    background-color: rgb(219, 112, 147, 0.7);
+    border: 1.5px solid #ffffff;
+}
+
+.contact .sns{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;   
+    background-image: url(images/footer-background.jpeg);
+}
